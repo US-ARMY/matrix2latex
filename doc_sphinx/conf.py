@@ -50,8 +50,8 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'matrix2latex'
-copyright = u'2014, obtitus@gmail.com'
+project = 'matrix2latex'
+copyright = '2014, obtitus@gmail.com'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -203,8 +203,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'matrix2latex.tex', u'matrix2latex Documentation',
-   u'obtitus@gmail.com', 'manual'),
+  ('index', 'matrix2latex.tex', 'matrix2latex Documentation',
+   'obtitus@gmail.com', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -233,8 +233,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'matrix2latex', u'matrix2latex Documentation',
-     [u'obtitus@gmail.com'], 1)
+    ('index', 'matrix2latex', 'matrix2latex Documentation',
+     ['obtitus@gmail.com'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -247,8 +247,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'matrix2latex', u'matrix2latex Documentation',
-   u'obtitus@gmail.com', 'matrix2latex', 'One line description of project.',
+  ('index', 'matrix2latex', 'matrix2latex Documentation',
+   'obtitus@gmail.com', 'matrix2latex', 'One line description of project.',
    'Miscellaneous'),
 ]
 

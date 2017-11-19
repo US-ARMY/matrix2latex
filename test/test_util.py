@@ -34,5 +34,5 @@ def assertEqual(x, name):
             
     if not(correct):
         for a, b in loopTwoLists(x, y):
-            print(a,b)
+            print((a,b))
         raise AssertionError

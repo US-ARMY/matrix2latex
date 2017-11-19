@@ -1,6 +1,6 @@
 """This file is a hack: files using the 'with' syntax will raise a syntax error on pre 2.4, so
 these are placed here."""
-from __future__ import with_statement
+
 import warnings
 from test_util import *
 

@@ -259,5 +259,5 @@ if __name__ == '__main__':
     import test
     for d in sorted(test.__dict__):
         if 'test_' in d:
-            print('RUNNING', d)
+            print(('RUNNING', d))
             eval(d+'()')

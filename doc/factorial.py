@@ -15,14 +15,14 @@ def factorialSequential(n):
     if n == 0:
         return 1
     res = 1
-    for k in xrange(2, n+1):
+    for k in range(2, n+1):
         res *= k
     return res
 
 if __name__ == '__main__':
     from matrix2latex import matrix2latex
     
-    N = range(0, 10)
+    N = list(range(0, 10))
     table = list()
     for func in (factorialMath,
                  factorialRecursive,

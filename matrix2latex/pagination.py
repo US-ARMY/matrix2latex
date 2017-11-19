@@ -12,7 +12,7 @@ along with matrix2latex. If not, see <http://www.gnu.org/licenses/>.
 """
 
 import os
-from matrix2latex import matrix2latex
+from .matrix2latex import matrix2latex
 from subprocess import call
 
 def simple(matrix, headerRow=None, headerColumn=None, Filename=None, font_size=None, clean_latex=True):

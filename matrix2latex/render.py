@@ -18,7 +18,7 @@ import shutil
 import warnings
 import tempfile
 import subprocess
-from matrix2latex import matrix2latex
+from .matrix2latex import matrix2latex
 
 _latex_documentclass = r'\documentclass[varwidth=true, border=2pt, convert=true]{standalone}'
 _latex_preamble = r"""\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
@@ -138,7 +138,7 @@ def matrix2image(matr, filename=None, *args, **kwargs):
         if not(os.path.exists(output_filename_tmp)):
             raise IOError('Expected %s to exist after calling %s' % (output_filename_tmp, cmd))
 
-        print output_filename_tmp, output_filename_final
+        print((output_filename_tmp, output_filename_final))
         shutil.copyfile(output_filename_tmp, output_filename_final)
 
     if clean_latex:
